@@ -1,0 +1,8 @@
+<form method="post">
+    {% csrf_token %}
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br>
+    <label for="id_usuario">ID Usuario:</label>
+    <input type="text" id="id_usuario" name="id_usuario"><br>
+    <button type="submit">Registrar Usuario</button>
+</form>

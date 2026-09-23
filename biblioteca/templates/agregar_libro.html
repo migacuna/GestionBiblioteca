@@ -1,0 +1,10 @@
+<form method="post">
+    {% csrf_token %}
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo"><br>
+    <label for="autor">Autor:</label>
+    <input type="text" id="autor" name="autor"><br>
+    <label for="isbn">ISBN:</label>
+    <input type="text" id="isbn" name="isbn"><br>
+    <button type="submit">Agregar Libro</button>
+</form>
